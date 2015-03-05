@@ -1,0 +1,207 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	text-align: center;
+	font-family: verdana, trebuchet, sans-serif;
+	background-color: #FFDBBD;
+}
+
+.marco {
+	background: #FF8000;
+	borderweight: 0px;
+	border-radius: 20px;	
+}
+
+.tablaHeader {
+	padding: 20px;
+	color: #0C489A;
+	font-weight: bold;
+	
+}
+
+.tablaData {
+	font-size: small;
+	padding-top: 10px;
+}
+
+.listaUsuarios {
+	background: #FF8000;
+	margin-top: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 15px;
+	padding-bottom: 50px;
+}
+
+.listaDisponibles {
+	background: #FC4045;
+	margin-left: 5%;
+	width: 30%;
+	border-radius: 15px;
+	position: float;
+	float: left;
+	padding-bottom: 30px;
+}
+
+#tituloDisponibles {
+	font-weight: bold;
+	padding: 15px;
+}
+
+.enlaceLibro {
+	text-decoration: none;
+	color: #000000;
+	margin: 10px;
+	font-size: small;
+}
+
+.enlaceLibro:hover {
+	color: #8CB9FD;
+	font-size: medium;
+	font-weight: bold;
+}
+
+.visorLibro {
+	background: #FF8000;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	border-radius: 15px;
+	width: 58%;
+	min-height: 300px;
+	position: float;
+	float: right;
+}
+
+.imagen {
+	margin: 20px;
+	float: left;
+}
+
+.tituloLibro {
+	text-align: left;
+	margin-top: 40px;
+}
+
+.precioLibro {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.mensaje {
+	color: #FAAC40;
+	margin: 50px;
+}
+
+#subMenu {
+	background: #FC4045;
+	borderweight: 0px;
+	border-radius: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+#menu {
+	background: #3A95FF;
+	borderweight: 0px;
+	border-radius: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.botonMenu {
+	padding: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.botonChico {
+	background: #3A95FF;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+a.botonMenu:hover {
+	color: #8CB9FD;
+}
+
+a.botonMenu:active {
+	color: #FC4045;
+}
+
+#tituloLogin {
+	color: #FFDBBD;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#tablaLogin {
+	padding-top: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 25px;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.boton {
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	font-color: #000000;
+	text-decoration: none;
+	background: #3A95FF;
+	border-width: 0px;
+	width: 250px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.boton:active {
+	background: #FC4045;
+}
+
+.select {
+	text-align: center;
+	padding: 10px;
+	border: 0px;
+	border-radius: 10px;
+	background: #3A95FF;
+}
+
+.textBox {
+	text-align: center;
+	padding: 10px;
+	border: 0px;
+	border-radius: 10px;
+	background: #FFDBBD;
+}
+
+#footer {
+	position: relative;
+	margin-top: 50px;
+	height: 20px;
+	clear: both;
+	text-align: right;
+	font-size: small;
+	color: #CE801C;
+}
+
+#header {
+	color: #FF8000;
+}
+
+.usuarioLogeado {
+	text-align: left;
+	font-size: small;
+}
